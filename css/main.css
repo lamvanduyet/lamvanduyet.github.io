@@ -5,6 +5,11 @@
   margin: 0;
   padding: 0; }
 
+/***************** 
+
+Main Styling
+
+******************/
 body {
   font-size: 1rem;
   background-color: #bdc3c7;
@@ -376,5 +381,288 @@ a {
       cursor: pointer; }
       .main form .btn:hover {
         background: #587ca0; }
+
+/*********************** 
+MEDIA QUERIES 
+***********************/
+/* for tablets */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.2rem; }
+
+  .container {
+    width: 75%; }
+
+  #header {
+    height: 3.5rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem; }
+    #header .main-nav {
+      padding-top: 1.8rem; }
+      #header .main-nav .icon-close i {
+        font-size: 1.5rem; }
+      #header .main-nav ul li {
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem; }
+        #header .main-nav ul li:first-child {
+          padding-top: 1.250rem; }
+        #header .main-nav ul li a {
+          padding: 0.6rem; }
+        #header .main-nav ul li #find {
+          width: 12rem;
+          height: 2.5rem;
+          padding-left: 0.5rem;
+          padding-right: 1.4rem; }
+    #header .shopping-nav .user-nav {
+      font-size: 1rem;
+      width: 20%;
+      right: 4.2rem; }
+
+  .jumbotron {
+    margin-top: 3rem;
+    min-height: 25rem; }
+    .jumbotron .jumbotron-description {
+      padding-top: 17rem;
+      margin-left: 2.3rem; }
+      .jumbotron .jumbotron-description h1 {
+        font-size: 3rem;
+        color: #ecf0f1;
+        margin-bottom: 0.5rem;
+        text-shadow: 1px 1px #7f8c8d; }
+
+  .featured, .products-list, .product, .main {
+    min-height: 27rem;
+    margin-top: 0.5rem;
+    padding-top: 1.2rem;
+    padding-bottom: 2rem; }
+    .featured h2, .products-list h2, .product h2, .main h2 {
+      margin-bottom: 1.2rem;
+      font-size: 2.2rem; }
+    .featured .featured-products, .products-list .featured-products, .product .featured-products, .main .featured-products {
+      min-height: 28rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem; }
+      .featured .featured-products li, .products-list .featured-products li, .product .featured-products li, .main .featured-products li {
+        margin-top: 1.5rem; }
+
+  .mens-collection {
+    min-height: 17rem; }
+    .mens-collection .mens-collection-title {
+      padding-top: 5rem;
+      width: 50%;
+      float: left;
+      min-height: 15rem; }
+      .mens-collection .mens-collection-title h2 {
+        font-size: 2.2rem; }
+    .mens-collection .mens-collection-img {
+      min-height: 15rem;
+      padding-top: 12rem; }
+      .mens-collection .mens-collection-img .btn {
+        padding: 0.5rem 1rem; }
+
+  .womens-collection {
+    min-height: 17rem; }
+    .womens-collection .womens-collection-title {
+      padding-top: 5rem;
+      width: 50%;
+      float: right;
+      min-height: 15rem; }
+      .womens-collection .womens-collection-title h2 {
+        font-size: 2.2rem; }
+    .womens-collection .womens-collection-img {
+      min-height: 15rem;
+      padding-top: 12rem; }
+      .womens-collection .womens-collection-img .btn {
+        padding: 0.5rem 1rem; }
+
+  .footer {
+    margin-top: 1rem;
+    min-height: 24rem; }
+    .footer .links {
+      min-height: 20rem;
+      padding-top: 1rem; }
+      .footer .links .links-grid {
+        width: 50%;
+        float: left;
+        display: inline-block;
+        margin-bottom: 2rem; }
+        .footer .links .links-grid h3 {
+          margin-bottom: 1rem;
+          font-size: 2.1rem; }
+        .footer .links .links-grid ul li {
+          margin-top: 1rem; }
+          .footer .links .links-grid ul li a {
+            font-size: 1.2rem; }
+    .footer .main-footer {
+      min-height: 8rem;
+      padding-top: 1.2rem; }
+      .footer .main-footer .main-footer-info {
+        padding-top: 0.5rem;
+        text-align: center;
+        width: 100%; }
+      .footer .main-footer .main-footer-social {
+        margin-top: 1rem;
+        text-align: center;
+        width: 100%; }
+        .footer .main-footer .main-footer-social a {
+          font-size: 1.2rem; }
+          .footer .main-footer .main-footer-social a i {
+            font-size: 2rem; }
+
+  .main {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1.7rem; }
+    .main h2 {
+      font-size: 2.2rem; }
+    .main ul li {
+      margin-top: 2rem; }
+    .main .about {
+      margin-top: 3rem;
+      text-indent: 22px; }
+    .main form {
+      margin-top: 3rem;
+      padding-bottom: 2rem; }
+      .main form input {
+        width: 100%;
+        padding: 0.6rem;
+        margin-bottom: 0.6rem; } }
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 70%; }
+
+  #header .open-nav {
+    display: none; }
+  #header .logo {
+    text-align: left;
+    width: 20%; }
+  #header .main-nav {
+    width: 33.333333%;
+    float: left;
+    position: static;
+    background: none;
+    width: 65%;
+    text-align: right;
+    margin-top: -1.8rem; }
+    #header .main-nav .icon-close {
+      display: none; }
+    #header .main-nav ul {
+      margin-top: -1;
+      position: static;
+      margin: 0; }
+      #header .main-nav ul form {
+        display: none; }
+      #header .main-nav ul li {
+        font-size: 1rem;
+        display: inline-block;
+        margin: 0;
+        margin-left: 0.3rem;
+        padding: 0; }
+        #header .main-nav ul li a {
+          margin: 0;
+          padding: 0; }
+          #header .main-nav ul li a:hover {
+            color: #3498db; }
+  #header .shopping-nav {
+    width: 15%; }
+    #header .shopping-nav .user-nav {
+      font-size: 1rem;
+      width: 20%;
+      right: 6.5rem; }
+
+  .jumbotron {
+    margin-top: 3rem;
+    min-height: 33rem; }
+    .jumbotron .jumbotron-description {
+      padding-top: 23rem; }
+
+  .featured, .products-list, .product, .main {
+    min-height: 20rem;
+    padding-top: 1.5rem; }
+    .featured h2, .products-list h2, .product h2, .main h2 {
+      margin-bottom: 1.2rem;
+      font-size: 2.2rem; }
+    .featured .featured-products, .products-list .featured-products, .product .featured-products, .main .featured-products {
+      min-height: 20rem;
+      padding-top: 3rem;
+      padding-bottom: 0.5rem; }
+      .featured .featured-products li, .products-list .featured-products li, .product .featured-products li, .main .featured-products li {
+        margin-top: 1.5rem;
+        width: 22.5%;
+        margin: 1.25%; }
+
+  .main {
+    padding-top: 3rem;
+    padding-bottom: 2rem; }
+    .main form {
+      margin-top: 3rem;
+      padding-bottom: 2rem; }
+      .main form input {
+        width: 60%;
+        padding: 0.6rem;
+        margin-bottom: 0.6rem; }
+      .main form textarea {
+        width: 60%;
+        height: 10rem; }
+      .main form .btn {
+        width: 60%; } }
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 60%; }
+
+  .jumbotron {
+    min-height: 50rem; }
+    .jumbotron .jumbotron-description {
+      padding-top: 35rem; }
+      .jumbotron .jumbotron-description h1 {
+        font-size: 4.3rem; }
+      .jumbotron .jumbotron-description .btn {
+        font-size: 1.5rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem; }
+
+  .mens-collection {
+    min-height: 28rem; }
+    .mens-collection .mens-collection-title {
+      padding-top: 9rem;
+      min-height: 15rem; }
+      .mens-collection .mens-collection-title h2 {
+        font-size: 3rem; }
+    .mens-collection .mens-collection-img {
+      min-height: 20rem;
+      padding-top: 15rem; }
+      .mens-collection .mens-collection-img .btn {
+        font-size: 1.5rem;
+        padding: 1rem 1.5rem; }
+
+  .womens-collection {
+    min-height: 28rem; }
+    .womens-collection .womens-collection-title {
+      padding-top: 9rem;
+      min-height: 15rem; }
+      .womens-collection .womens-collection-title h2 {
+        font-size: 3rem; }
+    .womens-collection .womens-collection-img {
+      min-height: 20rem;
+      padding-top: 15rem; }
+      .womens-collection .womens-collection-img .btn {
+        padding: 1rem 1.5rem;
+        font-size: 1.5rem; }
+
+  .main {
+    padding-top: 6rem;
+    padding-bottom: 6rem; }
+    .main form {
+      margin-top: 3rem;
+      padding-bottom: 2rem; }
+      .main form input {
+        width: 60%;
+        padding: 0.6rem;
+        margin-bottom: 0.6rem; }
+      .main form textarea {
+        width: 60%;
+        height: 10rem; }
+      .main form .btn {
+        width: 60%; } }
 
 /*# sourceMappingURL=main.css.map */
