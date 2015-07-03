@@ -251,7 +251,7 @@ a {
   .footer .links {
     overflow: hidden;
     width: 100%;
-    background: #bdc3c7;
+    background: darkgrey;
     height: 19rem;
     padding-top: 1rem; }
     .footer .links h3 {
@@ -606,12 +606,13 @@ MEDIA QUERIES
         height: 10rem; }
       .main form .btn {
         width: 60%; } }
+/* Large DESKTOP */
 @media screen and (min-width: 1600px) {
   .container {
     width: 60%; }
 
   .jumbotron {
-    min-height: 50rem; }
+    min-height: 55rem; }
     .jumbotron .jumbotron-description {
       padding-top: 35rem; }
       .jumbotron .jumbotron-description h1 {
@@ -622,29 +623,29 @@ MEDIA QUERIES
         padding-right: 1.2rem; }
 
   .mens-collection {
-    min-height: 28rem; }
+    min-height: 30rem; }
     .mens-collection .mens-collection-title {
-      padding-top: 9rem;
+      padding-top: 10rem;
       min-height: 15rem; }
       .mens-collection .mens-collection-title h2 {
         font-size: 3rem; }
     .mens-collection .mens-collection-img {
-      min-height: 20rem;
-      padding-top: 15rem; }
+      min-height: 22rem;
+      padding-top: 17rem; }
       .mens-collection .mens-collection-img .btn {
         font-size: 1.5rem;
         padding: 1rem 1.5rem; }
 
   .womens-collection {
-    min-height: 28rem; }
+    min-height: 30rem; }
     .womens-collection .womens-collection-title {
-      padding-top: 9rem;
+      padding-top: 10rem;
       min-height: 15rem; }
       .womens-collection .womens-collection-title h2 {
         font-size: 3rem; }
     .womens-collection .womens-collection-img {
-      min-height: 20rem;
-      padding-top: 15rem; }
+      min-height: 22rem;
+      padding-top: 17rem; }
       .womens-collection .womens-collection-img .btn {
         padding: 1rem 1.5rem;
         font-size: 1.5rem; }
